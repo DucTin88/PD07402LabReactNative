@@ -5,10 +5,12 @@ import Flatlist from "./src/screens/lab4/flatlist/"
 
 import Lab5 from "./src/screens/lab5"
 import Lab6 from "./src/screens/lab6"
+import Crud from "./src/screens/lab8/CRUD";
 
 
  const App = () => {
-  return <Lab6></Lab6>
+  return <Lab5></Lab5>
+  
 };
 
 export default App;

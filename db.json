@@ -1,0 +1,14 @@
+{
+    "users": [
+    {
+    "name": "Nguyen Duc Tin",
+    "birthday": "04-08-2003",
+    "id": "1"
+    },
+    {
+    "name": "Le Trung c",
+    "birthday": "01-01-1983", 
+    "id": "2"
+    }
+    ]
+}
