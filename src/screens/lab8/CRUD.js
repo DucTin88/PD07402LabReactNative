@@ -8,9 +8,9 @@ const Crud = () => {
 
     return(
         <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen name="ListUser"  conponent={ListUser}/>
-                <Stack.Screen name="AddUser"  conponent={AddUser}/>
+            <Stack.Navigator initialRouteName='ListUser'>
+                <Stack.Screen name="ListUser"  component={ListUser} options={{title:'Danh sách sinh viên'}}/>
+                <Stack.Screen name="AddUser"  component={AddUser} options={{title:'Thêm sinh viên'}}/>
             </Stack.Navigator>
         </NavigationContainer>
     );

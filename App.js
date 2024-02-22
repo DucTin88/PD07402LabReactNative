@@ -9,8 +9,10 @@ import Crud from "./src/screens/lab8/CRUD";
 
 
  const App = () => {
-  return <Lab5></Lab5>
+  return (
+    <Crud/>
+  );
   
-};
+}
 
 export default App;
